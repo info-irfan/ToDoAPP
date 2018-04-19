@@ -12,4 +12,12 @@
     <Folder Include="Repository\Implementations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToDo.Model\ToDo.Model.csproj" />
+  </ItemGroup>
+
 </Project>
